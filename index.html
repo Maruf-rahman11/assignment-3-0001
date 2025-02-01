@@ -44,11 +44,11 @@
 <body class="sora-font">
     <header >
         <!-- nav bar -->
-         <section class="bg-[#FFF9F4] ">
-        <div class="navbar w-[80%] mx-auto">
+         <section class="bg-[#FFF9F4] w-[100%] lg:border-none border-[2px]">
+        <div class="navbar lg:w-[80%] mx-auto w-[90%]">
             <div class="navbar-start">
             <img src="c1-assets/logo-header.png" alt="" srcset="">
-              <h1 class="text-3xl pl-2 text-[#111111]">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+              <h1 class="text-3xl pl-2 invisible lg:visible text-[#111111]">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -57,7 +57,7 @@
                 <li><a>Contact us</a></li>
               </ul>
             </div>
-            <div class="navbar-end py-2">
+            <div class="navbar-end py-2 invisible lg:visible">
               <button class="btn btn-ghost btn-circle">
                 <div class="indicator">
                   <svg
@@ -91,7 +91,11 @@
               </button>
               <a class="btn border-[#FFDC26] bg-transparent">Log in</a>
               <a class="btn bg-[#FFDC26]  ml-3 ">Register</a>
+              <i class="lg:invisible visible fa-solid fa-bars text-3xl"></i>
             </div>
+            
+              
+            
           </div>
          </section>  
          <!-- Laying cat section -->
